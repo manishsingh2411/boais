@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOAIS - Back Office AI Services | BackOfficeDost</title>
+  <meta name="description" content="Affordable, custom-built AI tools for your back office. Dedicated infrastructure for MSMEs. Transparent pricing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== 1. NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-main">BackOffice Dost</span>
+        <span class="logo-sub">by BOAIS</span>
+      </a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== 2. HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <h1>Your Back Office,<br>Now <span class="highlight">AI-Powered</span></h1>
+        <p class="hero-sub">Affordable, custom-built AI tools for your business. Deployed on your own dedicated server. No shared infrastructure, no hidden costs.</p>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </div>
+      <div class="hero-icons">
+        <div class="hero-icon-card">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="8" width="40" height="32" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M4 16h40" stroke="currentColor" stroke-width="2.5"/><path d="M12 24h16M12 30h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          <span>Email Marketing</span>
+        </div>
+        <div class="hero-icon-card">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 40V12a4 4 0 014-4h24a4 4 0 014 4v28" stroke="currentColor" stroke-width="2.5"/><path d="M14 20h20M14 26h14M14 32h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="36" cy="34" r="6" stroke="currentColor" stroke-width="2.5"/><path d="M34 34l2 2 3-3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Tender Recommender</span>
+        </div>
+        <div class="hero-icon-card">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="6" width="36" height="36" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M6 18h36" stroke="currentColor" stroke-width="2.5"/><path d="M18 18v24" stroke="currentColor" stroke-width="2.5"/><path d="M12 12h4M24 24h12M24 30h8M24 36h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          <span>Payroll System</span>
+        </div>
+        <div class="hero-icon-card">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 44V10a4 4 0 014-4h20a4 4 0 014 4v34" stroke="currentColor" stroke-width="2.5"/><path d="M16 16h16M16 22h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="34" r="6" stroke="currentColor" stroke-width="2.5"/><path d="M24 31v6M21 34h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          <span>Knowledge Bank</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 3. THE PROBLEM ===== -->
+  <section class="problem" id="problem">
+    <div class="container">
+      <h2 class="section-title">Why MSMEs Struggle with Back Office</h2>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M8 8h24v24H8z" stroke="currentColor" stroke-width="2"/><path d="M14 20h12M20 14v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M5 5l30 30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/></svg>
+          </div>
+          <h3>One-Size Doesn't Fit All</h3>
+          <p>Generic software doesn't fit your unique workflow. You end up adjusting your process to match the tool instead of the other way around.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 6l3 8h8l-6.5 5 2.5 8L20 22l-7 5 2.5-8L9 14h8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M6 34h28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Enterprise Tools Cost Too Much</h3>
+          <p>Big software companies charge enterprise prices for features you'll never use. Small teams deserve better.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2"/><path d="M14 20h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M20 14v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>AI Should Reduce Costs</h3>
+          <p>AI has made building software faster and cheaper. That saving should reach you, not stay with software vendors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 4. HOW IT WORKS ===== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">How It Works</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4C13 4 4 13 4 24s9 20 20 20 20-9 20-20S35 4 24 4z" stroke="currentColor" stroke-width="2.5"/><path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Tell Us Your Need</h3>
+          <p>Describe your back-office challenge. We listen and understand your specific workflow.</p>
+        </div>
+        <div class="step-connector">
+          <svg viewBox="0 0 40 12" fill="none"><path d="M0 6h32M28 1l6 5-6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 40V14a4 4 0 014-4h24a4 4 0 014 4v26" stroke="currentColor" stroke-width="2.5"/><path d="M16 22h16M16 28h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M20 6v4M28 6v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>We Build It Fast</h3>
+          <p>Custom AI-powered tools, built specifically for you. Ready in days, not months.</p>
+        </div>
+        <div class="step-connector">
+          <svg viewBox="0 0 40 12" fill="none"><path d="M0 6h32M28 1l6 5-6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="12" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M18 36h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="24" r="4" stroke="currentColor" stroke-width="2.5"/><path d="M20 20l8 8M28 20l-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/></svg>
+          </div>
+          <h3>Your Own System</h3>
+          <p>Deployed on a dedicated VM managed by us. Your data stays yours. Not shared with anyone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 5. SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-subtitle">Ready-to-deploy AI-powered back office tools</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 56 56" fill="none"><rect x="6" y="12" width="44" height="32" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M6 20h44" stroke="currentColor" stroke-width="2.5"/><path d="M28 28l-10 8h20z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Bulk Email Marketing</h3>
+          <p>Templates, customer lists, campaign tracking. Reach your customers at scale with personalised emails.</p>
+          <ul class="service-features">
+            <li>Email template builder</li>
+            <li>Customer list management</li>
+            <li>Campaign analytics</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 56 56" fill="none"><path d="M10 46V14a4 4 0 014-4h28a4 4 0 014 4v32" stroke="currentColor" stroke-width="2.5"/><path d="M18 22h20M18 28h14M18 34h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="42" cy="40" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M40 40l2 2 4-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Tender Recommender</h3>
+          <p>AI finds and recommends relevant government and private tenders for your business automatically.</p>
+          <ul class="service-features">
+            <li>Auto-scan tender portals</li>
+            <li>AI-matched recommendations</li>
+            <li>Deadline alerts</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 56 56" fill="none"><rect x="8" y="8" width="40" height="40" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M8 20h40" stroke="currentColor" stroke-width="2.5"/><path d="M22 20v28" stroke="currentColor" stroke-width="2.5"/><path d="M14 14h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M28 28h14M28 34h10M28 40h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Payroll System</h3>
+          <p>Simple salary calculation, payslips, and compliance for small teams. No accounting degree needed.</p>
+          <ul class="service-features">
+            <li>Salary calculation</li>
+            <li>Payslip generation</li>
+            <li>Tax compliance basics</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 56 56" fill="none"><path d="M12 48V12a4 4 0 014-4h24a4 4 0 014 4v36" stroke="currentColor" stroke-width="2.5"/><path d="M20 18h16M20 24h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="28" cy="38" r="7" stroke="currentColor" stroke-width="2.5"/><path d="M28 34v8M24 38h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Knowledge Bank</h3>
+          <p>Upload your documents. Ask questions. Get instant answers from your own data — like having a smart assistant.</p>
+          <ul class="service-features">
+            <li>Upload any document type</li>
+            <li>AI-powered Q&A</li>
+            <li>Secure & private</li>
+          </ul>
+        </div>
+      </div>
+      <div class="services-custom">
+        <p>Need something different? <strong>We build custom back-office tools.</strong></p>
+        <a href="#contact" class="btn btn-outline">Talk to Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 6. PRICING ===== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Transparent Pricing. No Surprises.</h2>
+      <p class="section-subtitle">VM cost (pass-through, verifiable by you) + our monthly service charge. That's it.</p>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-tier">Starter</div>
+          <div class="pricing-amount"><span class="currency">&#8377;</span>2,999<span class="per">/mo</span></div>
+          <ul class="pricing-features">
+            <li>1 AI service</li>
+            <li>Basic VM (shared resources)</li>
+            <li>Email support</li>
+            <li>Monthly reports</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Started</a>
+        </div>
+        <div class="pricing-card pricing-featured">
+          <div class="pricing-badge">Popular</div>
+          <div class="pricing-tier">Growth</div>
+          <div class="pricing-amount"><span class="currency">&#8377;</span>6,999<span class="per">/mo</span></div>
+          <ul class="pricing-features">
+            <li>Up to 3 AI services</li>
+            <li>Standard VM (dedicated)</li>
+            <li>Phone & email support</li>
+            <li>Weekly reports</li>
+            <li>Priority bug fixes</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-tier">Custom</div>
+          <div class="pricing-amount">Let's Talk</div>
+          <ul class="pricing-features">
+            <li>Unlimited services</li>
+            <li>Custom VM configuration</li>
+            <li>Dedicated support</li>
+            <li>Custom integrations</li>
+            <li>SLA guarantees</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+      <p class="pricing-note">VM costs are at-cost pass-through — you can verify directly with the cloud provider. No markups.</p>
+    </div>
+  </section>
+
+  <!-- ===== 7. WHY CHOOSE US ===== -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="10" width="28" height="20" rx="3" stroke="currentColor" stroke-width="2"/><path d="M14 30h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="20" cy="20" r="3" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h4>Dedicated Infrastructure</h4>
+          <p>Your own VM. Your data never mixes with anyone else's.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M8 32V12l12-6 12 6v20l-12 6-12-6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M20 6v32M8 12l12 6 12-6" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h4>Built for YOUR Workflow</h4>
+          <p>Tools shaped around how you work, not the other way around.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="8" y="6" width="24" height="28" rx="3" stroke="currentColor" stroke-width="2"/><path d="M14 14h12M14 20h8M14 26h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h4>Transparent Billing</h4>
+          <p>See exactly what you're paying for. VM cost + service fee. No hidden charges.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2"/><path d="M20 12v8l6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Fast Delivery</h4>
+          <p>Your tools ready in days, not months. We move fast because you need results now.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="2"/><path d="M10 34c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h4>Personal Support</h4>
+          <p>Talk to a real person who knows your setup. Not a ticket queue.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 8. CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Talk About Your Back Office</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">Ready to simplify your back office? Reach out and we'll get back to you within 24 hours.</p>
+          <div class="contact-detail">
+            <svg viewBox="0 0 24 24" fill="none" class="contact-icon"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+919999999999">+91 99999 99999</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <svg viewBox="0 0 24 24" fill="none" class="contact-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:hello@backofficedost.com">hello@backofficedost.com</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Rajesh Kumar">
+            </div>
+            <div class="form-group">
+              <label for="business">Business Name</label>
+              <input type="text" id="business" name="business" placeholder="Kumar Enterprises">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="rajesh@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Tell us about your back-office challenge..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 9. FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="logo-main">BackOfficeDost</span>
+        <p>Back Office AI Services (BOAIS)</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 BOAIS. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
